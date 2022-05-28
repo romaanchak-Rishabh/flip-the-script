@@ -1,0 +1,127 @@
+/* .app {
+    padding: 30px;
+    background-color: floralwhite;
+    width: 80%;
+} */
+
+.protected {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: sp;  */
+    align-items: center;
+    margin-top: 16px;
+}
+
+.logged {
+    position: relative;
+    left: 36%;
+}
+
+.logged-head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    height: 50px;
+    width: 150px;
+    border-radius: 32px;
+    background: crimson;
+    color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.watchlist-heading {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    border-radius: 12px;
+    background: lightseagreen;
+    color: white;
+    margin-bottom: 30px;
+}
+  
+.todo {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+button {
+    background: content-box;
+    color: coral;
+    border: 1px solid coral;
+    border: none;
+    outline: none;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.form-group {
+    padding-top: 30px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0;
+}
+
+.form-group input {
+    width: 20%;
+}
+
+.form-input {
+    width: 20%;
+    outline: none;
+    /* border: none; */
+    border: 1px solid gainsboro;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.btn-add {
+    width: 15%;
+    height: 50px;
+    padding: 0;
+    background: #170739;
+    border-radius: 10px;
+}
+
+.watchlist-add-heading {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    border-radius: 12px;
+    background: #024242;
+    color: white;
+}
+
+.thead {
+    background: #1D8F9E;
+    padding-top: 30px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+th {
+    padding: 0;
+}

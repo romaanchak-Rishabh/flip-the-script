@@ -1,0 +1,66 @@
+.login-main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-heading {
+    height: 80px;
+    width: 350px;
+    border-radius: 50px;
+    background: #071C44;
+    color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.form {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.username {
+    width: 350px;
+    height: 50px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.password {
+    width: 350px;
+    height: 50px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+
+.login-button {
+    width: 100px;
+    height: 50px;
+    background: #071C44;
+    border-radius: 50px;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
