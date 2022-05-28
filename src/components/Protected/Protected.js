@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import "./Protected.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import InputField from './InputField';
-import TodosList from './TodosList';
 import { connect } from 'react-redux';
-import { deleteAll, persistTodo } from './redux/action/addTodo.action';
 import { Link } from 'react-router-dom';
-import Auth from '../Auth';
-import DataView from './DataView';
+import Auth from '../../Auth';
+import DataView from '../DataView';
 
 
 const Protected = ({deleteAll, persistTodo}) => {
@@ -26,7 +23,7 @@ const Protected = ({deleteAll, persistTodo}) => {
       }
     }
 
-    const [films, setfilms] = useState([getDatafromLS()]);
+    const [films, setfilms] = useState(getDatafromLS());
 
     const [name, setName] = useState('');
     const [genre, setGenre] = useState('');
@@ -88,12 +85,7 @@ const Protected = ({deleteAll, persistTodo}) => {
       })
       setfilms(filteredFilms);
     }
-    
-
-
-  // useEffect(() => {
-  //   persistTodo();
-  // }, [persistTodo])
+  
   return (
     <div className='protected'>
       <div className='logged-head'>

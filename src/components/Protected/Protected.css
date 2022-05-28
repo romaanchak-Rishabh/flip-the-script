@@ -94,6 +94,7 @@ button {
     border: 1px solid gainsboro;
     background: #C4C4C4;
     border-radius: 10px;
+    padding-left: 20px;
 }
 
 .btn-add {
@@ -111,6 +112,10 @@ button {
     border-radius: 12px;
     background: #024242;
     color: white;
+}
+
+.table-head {
+    width: 100vw;
 }
 
 .thead {

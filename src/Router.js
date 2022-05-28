@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import App from './App';
-import Public from './components/Public';
-import Protected from './components/Protected';
+import Public from '../src/components/Public/Public';
+import Protected from '../src/components/Protected/Protected';
 import Auth from './Auth';
 
 const Router = (props) => (

@@ -1,15 +1,12 @@
 import React from 'react';
 import { Link, Redirect} from 'react-router-dom';
-import Auth from '../Auth';
+import Auth from '../../Auth';
 import { useState, useEffect } from "react";
 import './Public.css';
 
 const Public = () => {
     const login = () => {
         Auth.authenticate();
-        // console.log(Auth.getAuth());
-        // const nav = useNavigate();
-        // history.push('/protected'); 
     }
 
     const initialValues = { username: "", password: "" };

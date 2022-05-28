@@ -9,7 +9,7 @@ const DataView = ({films, deleteFilm}) => {
                 <td>{film.genre}</td>
                 <td>{film.rating}</td>
                 <td className='delete-btn' onClick={()=> deleteFilm(film.name)}>
-                    <Icon icon={trash} />
+                    <Icon icon={trash} className='trash-icon' />
                 </td>
                 </tr>
             ))
